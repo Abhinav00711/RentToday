@@ -1,0 +1,12 @@
+/* Footer Section */
+#footer
+{
+  padding-top: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
