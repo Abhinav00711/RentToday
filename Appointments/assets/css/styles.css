@@ -1,0 +1,74 @@
+body{
+    font-family: "Montserrat";
+    background-color: #6F42C1;
+}
+.card{
+    background-color: #6F42C1;
+}
+.card-header{
+    width:80%;
+}
+.nav-link{
+    color:white;
+}
+.nav-link:hover{
+    color:white;
+}
+
+.navitem{
+width:50%;
+}
+
+.card-body{
+    width:78%;
+    background-color: #ebe0ff;
+}
+table{
+    width:100%;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+table th{
+    color:#6F42C1;
+    font-weight: bolder;
+}
+table td{
+    width:100%;
+    background-color: white;
+}
+.t1{
+    color:#b52828;
+}
+.t2{
+    color:#2ec429;
+}
+table tr{
+    height:70px;
+}
+table td{
+    text-align: center;
+}
+
+.sn{
+    width:5%;
+}
+.tname{
+    width:25%;
+}
+
+.date{
+    width:20%;
+}
+
+.time{
+    width:20%;
+}
+
+.icons{
+    width:20%;
+}
+
+.res{
+    width:10%;
+}
