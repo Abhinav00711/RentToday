@@ -1,0 +1,227 @@
+
+body
+ {font-family: "Montserrat";text-align: center;}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bolder;
+}
+
+
+p {
+  color: #8f8f8f;
+}
+
+
+/* Headings */
+
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #9c72ef;
+}
+
+.section-heading:hover{
+    color: #6F42C1;
+}
+
+
+/* Containers */
+
+
+.container-fluid{
+  padding: 2% 15%;
+}
+
+
+/* Sections */
+
+
+.colored-section {
+  background-color: #6F42C1;
+  color: #fff;
+}
+
+
+.white-section {
+  background-color: #fff;
+}
+
+
+
+/* Buttons */
+
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+/* Title Section */
+
+
+#title {
+  background-color: #6F42C1;
+  color: #fff;
+  text-align: left;
+
+}
+
+
+#title .container-fluid {
+  padding: 15% 15% 7%;
+}
+
+
+/* Title Image */
+
+.title-image {
+  width: 90%;
+  position: absolute;
+  right: 10%; bottom: 1%; 
+}
+
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+
+.icon {
+  color: #9c72ef;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #6F42C1;
+}
+
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #9c72ef;
+}
+
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+
+#press {
+  background-color: #9c72ef;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+.celeb-logo
+{
+  margin: 20px 20px 50px;
+  height: 200px;
+  width: 200px;
+}
+
+
+
+#testimonials
+{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #9c72ef;
+  color: white;
+}
+
+.testimonial-image
+{
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding-top: 7%;
+  padding-bottom: 2%;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+#cta
+{
+   padding: 7% 15%;
+}
+
+/* Footer Section */
+#footer
+{
+  padding-top: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+
+#title .container-fluid {
+    padding: 20% 15% 7%;
+  }
+
+
