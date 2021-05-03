@@ -1,0 +1,382 @@
+/*Border*/
+
+body
+{
+
+    margin: auto;
+
+    width: 50%;
+
+    border-radius: 7px;
+
+    box-shadow: 0 0 10px #bdbdbd;
+
+    padding: 10px;
+
+}
+
+/*Heading*/
+
+h1{
+
+    font-size: 36px;
+
+    background-color: #7d30bc;
+
+    color: white;
+
+    font-weight: bold;
+
+    margin:-10px
+
+}
+
+h2{
+
+	padding:5px;
+
+	font-weight: bold;
+
+}
+
+/*para*/
+
+p{
+
+	color: #ff4c68;
+}
+
+/*Fieldset*/
+
+fieldset{
+
+	border:none;
+
+	background-color: #ffffff;
+
+	padding:15px;
+
+	margin:15px;
+}
+
+/*legend*/
+
+legend{
+
+
+	margin-left:-15px;
+
+	padding-right: 30px;
+
+	background-color: #d3d3d3;
+
+	text-align:left;
+
+	width:100%;
+
+	font-size: 20px;
+
+	font-weight: bold;
+
+}
+
+#education{
+
+	margin-left: 32%;
+
+  border:1px solid grey;
+
+  width : 45%;
+
+}
+
+#education legend{
+
+  margin-left:10px;
+
+  background-color:#F1F1F1;
+
+}
+
+/*Label*/
+
+ label{
+
+    margin: 0.4em;
+    display: inline-block;
+
+    width: 30%;
+
+    text-align: right;
+
+}
+
+/*Required*/
+
+span{
+
+	color:red;
+}
+
+/*all input filed*/
+
+ input, select, textarea
+{
+
+     border-radius: 5px;
+
+     box-shadow: 0 0 10px #bdbdbd;
+
+     font-size : 100%;
+
+     width : 45%;
+
+}
+
+input[type="radio"]{
+
+	width:5%;
+
+	box-shadow: 0 0 10px #F1F1F1;
+
+	background-color:#F1F1F1;
+}
+
+textarea{
+
+	vertical-align: top;
+
+}
+
+#edu{
+   width:15px;
+
+   background:white;
+
+}
+
+#newfieldset{
+
+	border:1px solid black;
+	width: 40%;
+
+	margin-left:220px;
+
+	background-color: white;
+
+}
+
+#newledgent{
+
+
+	width:50%;
+
+
+	font-size: 16px;
+
+	font-weight:lighter;
+
+}
+
+.buttonSize{
+
+	margin-left: 10px;
+
+	width: 20%;
+}
+
+.buttons{
+
+	text-align:center;
+
+}
+
+.buttonSize
+ {
+
+	background-color:#6f42c1;
+
+	-moz-border-radius:28px;
+
+	-webkit-border-radius:28px;
+
+	border-radius:10px;
+
+	border:1px solid #000000;
+
+	display:inline-block;
+
+	cursor:pointer;
+
+	color:#ffffff;
+
+	font-family:Arial;
+
+	font-size:14px;
+
+	padding:7px 10px;
+
+	text-decoration:none;
+
+	text-shadow:0px 1px 0px #2f6627;
+
+}
+
+.buttonSize:hover
+ {
+
+	background-color:#7d30bc;
+
+}
+
+.buttonSize:active
+ {
+
+	position:relative;
+
+	top:1px;
+
+}
+
+#passtext,#checkpasstext,#checkfname,#checklname,#checkphone,#educationerror{
+
+  padding-left:200px;
+
+  color:#ff4c68;
+
+}
+
+/* Customize the label (the container) */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.loader,
+.loader:before,
+.loader:after {
+  border-radius: 50%;
+}
+.loader {
+  color: #6f42c1;
+  font-size: 3px;
+  text-indent: -99999em;
+  position: relative;
+  width: 10em;
+  height: 5em;
+  box-shadow: inset 0 0 0 1em;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.loader:before,
+.loader:after {
+  position: absolute;
+  content: '';
+}
+.loader:before {
+  width: 5.2em;
+  height: 10.2em;
+  background: #6f42c1;
+  border-radius: 10.2em 0 0 10.2em;
+  top: -0.1em;
+  left: -0.1em;
+  -webkit-transform-origin: 5.1em 5.1em;
+  transform-origin: 5.1em 5.1em;
+  -webkit-animation: load2 2s infinite ease 1.5s;
+  animation: load2 2s infinite ease 1.5s;
+}
+.loader:after {
+  width: 5.2em;
+  height: 10.2em;
+  background: #6f42c1;
+  border-radius: 0 10.2em 10.2em 0;
+  top: -0.1em;
+  left: 4.9em;
+  -webkit-transform-origin: 0.1em 5.1em;
+  transform-origin: 0.1em 5.1em;
+  -webkit-animation: load2 2s infinite ease;
+  animation: load2 2s infinite ease;
+}
+@-webkit-keyframes load2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
